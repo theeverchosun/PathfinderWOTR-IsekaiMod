@@ -247,7 +247,7 @@ namespace IsekaiMod.Content {
                 Heritages.IsekaiDarkElfHeritage.Add();
                 Heritages.IsekaiHighElfHeritage.Add();
                 Heritages.IsekaiWoodElfHeritage.Add();
-                Heritages.IsekaiFurryHeritage.Add();
+                Heritages.IsekaiKitsuneHeritage.Add();
 
                 Heritages.IsekaiHighHumanHeritage.Add();
                 Heritages.IsekaiHumanCrossbreedLegacy.Add();

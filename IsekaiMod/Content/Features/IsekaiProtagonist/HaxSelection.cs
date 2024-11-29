@@ -51,32 +51,32 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist {
                 bp.AddComponent<AddStatBonus>(c => {
                     c.Descriptor = ModifierDescriptor.Other;
                     c.Stat = StatType.Strength;
-                    c.Value = 20;
+                    c.Value = 15;
                 });
                 bp.AddComponent<AddStatBonus>(c => {
                     c.Descriptor = ModifierDescriptor.Other;
                     c.Stat = StatType.Dexterity;
-                    c.Value = 20;
+                    c.Value = 15;
                 });
                 bp.AddComponent<AddStatBonus>(c => {
                     c.Descriptor = ModifierDescriptor.Other;
                     c.Stat = StatType.Constitution;
-                    c.Value = 20;
+                    c.Value = 15;
                 });
                 bp.AddComponent<AddStatBonus>(c => {
                     c.Descriptor = ModifierDescriptor.Other;
                     c.Stat = StatType.Intelligence;
-                    c.Value = 20;
+                    c.Value = 15;
                 });
                 bp.AddComponent<AddStatBonus>(c => {
                     c.Descriptor = ModifierDescriptor.Other;
                     c.Stat = StatType.Wisdom;
-                    c.Value = 20;
+                    c.Value = 15;
                 });
                 bp.AddComponent<AddStatBonus>(c => {
                     c.Descriptor = ModifierDescriptor.Other;
                     c.Stat = StatType.Charisma;
-                    c.Value = 20;
+                    c.Value = 15;
                 });
             });
             var HaxSelection = Helpers.CreateBlueprint<BlueprintFeatureSelection>(IsekaiContext, "HaxSelection", bp => {

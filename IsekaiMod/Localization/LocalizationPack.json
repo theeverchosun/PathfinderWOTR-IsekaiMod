@@ -4513,22 +4513,22 @@
     },
     {
       "Key": "62933e4e30574f1cb91d850678a64b6b",
-      "SimpleName": "IsekaiFurryHeritage.Description",
+      "SimpleName": "IsekaiKitsuneHeritage.Description",
       "ProcessTemplates": true,
-      "enGB": "Otherworldly entities who are reincarnated into the world of Golarion as a Furry have both extreme beauty and power. They are very furry.\nThe Isekai furry has a +4 racial {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Dexterity}Dexterity{/g}, a +2 racial bonus to {g|Encyclopedia:Intelligence}Intelligence{/g} and {g|Encyclopedia:Charisma}Charisma{/g}, and a -2 penalty to Strength. They have a +10 bonus to speed and have fast healing equal to their character level.",
+      "enGB": "Otherworldly entities who are reincarnated into the world of Golarion as a Furry have both extreme beauty and power. They are very furry.\nThe Isekai Kitsune has a +4 racial {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Dexterity}Dexterity{/g}, a +2 racial bonus to {g|Encyclopedia:Intelligence}Intelligence{/g} and {g|Encyclopedia:Charisma}Charisma{/g}, and a -2 penalty to Strength. They have a +10 bonus to speed and have fast healing equal to their character level.",
       "ruRU": "Иномирные существа, реинкарнировавшие в мире Голариона в виде фурри, обладают исключительной красотой и мощью. Они очень пушистые. \nИсекайские фурри получают расовый бонус +4 к ловкости, бонус +2 к интеллекту и харизме, и штраф -2 к силе. У них есть бонус +10 к скорости и быстрое исцеление, равное уровню персонажа.",
       "deDE": "Überirdische Wesen, die als Furry in die Welt von Golarion reinkarniert wurden, besitzen extreme Schönheit und Kraft. Sie sind sehr pelzig. Die Isekai-Furry hat einen +4 Rassenbonus auf Geschicklichkeit, einen +2 Rassenbonus auf Intelligenz und Charisma und einen -2 Malus auf Stärke. Sie hat einen +10 Bonus auf Geschwindigkeit und hat schnelle Heilung, die ihrem Charakterlevel entspricht.",
       "frFR": "Les entités d'un autre monde qui se réincarnent dans le monde de Golarion en tant que Furry ont à la fois une beauté et un pouvoir extrême. Ils sont très fourreux. Les Furries Isekai ont un bonus racial de +4 à la dextérité, un bonus racial de +2 à l'intelligence et au charisme, et une pénalité de -2 à la force. Ils ont un bonus de vitesse de +10 et une guérison accélérée égale à leur niveau de personnage.",
       "zhCN": "转生为葛拉利昂福瑞的异界实体拥有极致的美貌和力量。异世界福瑞的敏捷获得+4种族加值，智力和魅力获得+2种族加值，而力量获得-2的减值。他们有+10的速度，并拥有一个等同于他们角色等级的快速恢复能力。",
-      "esES": "Las entidades extraterrenales que se reencarnan en el mundo de Golarion como Furry tienen una belleza y un poder extremos. Son muy peludos. Los Isekai furry tienen un bono racial de +4 a Destreza, un bono racial de +2 a Inteligencia y Carisma, y una penalización de -2 a Fuerza. Tienen un bono de +10 a velocidad y tienen una curación rápida igual a su nivel de personaje."
+      "esES": "Las entidades extraterrenales que se reencarnan en el mundo de Golarion como Furry tienen una belleza y un poder extremos. Son muy peludos. Los Isekai Kitsune tienen un bono racial de +4 a Destreza, un bono racial de +2 a Inteligencia y Carisma, y una penalización de -2 a Fuerza. Tienen un bono de +10 a velocidad y tienen una curación rápida igual a su nivel de personaje."
     },
     {
       "Key": "30efa58f5239448bba86fd03bf18927c",
-      "SimpleName": "IsekaiFurryHeritage.Name",
+      "SimpleName": "IsekaiKitsuneHeritage.Name",
       "ProcessTemplates": false,
-      "enGB": "Isekai Furry",
+      "enGB": "Isekai Kitsune",
       "ruRU": "Исекай Фурри",
-      "deDE": "Isekai Furry",
+      "deDE": "Isekai Kitsune",
       "frFR": "Furry Isekai",
       "zhCN": "异世界福瑞",
       "esES": "Furry del Isekai"
