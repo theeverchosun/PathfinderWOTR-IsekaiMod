@@ -26,10 +26,7 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist.OverpoweredAbility {
                     c.Stat = StatType.Dexterity;
                     c.Value = 30;
                 });
-                bp.AddComponent<SetBaseStat>(c => {
-                    c.Stat = StatType.Constitution;
-                    c.Value = 30;
-                });
+                bp.AddComponent<CompleteDamageImmunity>();
                 bp.AddComponent<SetBaseStat>(c => {
                     c.Stat = StatType.Intelligence;
                     c.Value = 30;
