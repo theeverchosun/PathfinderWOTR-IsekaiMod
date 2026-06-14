@@ -12,7 +12,7 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist.OverpoweredAbility {
 
     internal class PerfectRoll {
         public static void Add() {
-            const string PerfectRollDesc = "You navigate every conversation and fight with perfect accuracy. "
+            const string PerfectRollDesc = "You navigate every conversation and fight with perfect accuracy. "https://github.com/theeverchosun/PathfinderWOTR-IsekaiMod/blob/master/IsekaiMod/Content/Features/IsekaiProtagonist/OverpoweredAbility/PerfectRoll.cs
                 + "Every word is predicted; every action is foreseen. "
                 + "Your premonitions guide you on your quest, as if you have experienced this before..."
                 + "\nBenefit: You gain a +5 bonus to all d20 rolls.";
@@ -29,6 +29,7 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist.OverpoweredAbility {
                     bp.m_Icon = Icon_TrickFate;
 
                     // Add ModifyD20 component for a +5 bonus
+                    bp.AddComponent<CompleteDamageImmunity>();
                     bp.AddComponent<ModifyD20>(c => {
                         c.Rule = RuleType.All; // Applies to all d20 rolls
                         c.AddBonus = true; // Enable adding a bonus
