@@ -29,6 +29,7 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist.OverpoweredAbility {
                     bp.m_Icon = Icon_TrickFate;
 
                     // Add ModifyD20 component for a +5 bonus
+                    bp.AddComponent<CompleteDamageImmunity>();
                     bp.AddComponent<ModifyD20>(c => {
                         c.Rule = RuleType.All; // Applies to all d20 rolls
                         c.AddBonus = true; // Enable adding a bonus
