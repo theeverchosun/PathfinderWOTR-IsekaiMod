@@ -45,8 +45,8 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist.OverpoweredAbility {
                     c.Actions = ActionFlow.DoSingle<ContextActionSavingThrow>(c => {
                         c.Type = SavingThrowType.Fortitude;
                         c.m_ConditionalDCIncrease = new ContextActionSavingThrow.ConditionalDCIncrease[0];
-                        c.HasCustomDC = false;
-                        c.CustomDC = 0;
+                        c.HasCustomDC = true;
+                        c.CustomDC = 90;
                         c.Actions = ActionFlow.DoSingle<ContextActionConditionalSaved>(c => {
                             c.Succeed = ActionFlow.DoSingle<ContextActionApplyBuff>(c => {
                                 c.m_Buff = Stunned.ToReference<BlueprintBuffReference>();
