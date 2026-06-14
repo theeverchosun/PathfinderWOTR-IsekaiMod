@@ -22,9 +22,7 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist.OverpoweredAbility {
                     + "\n— Antonius Sullivarus, the Merchant Mage of Magnificent Wares"
                     + "\nBenefit: You have an infinite carry capacity.");
                 bp.m_Icon = Icon_InfiniteSpace;
-                bp.AddComponent<AddPartyEncumbrance>(c => {
-                    c.Value = 1_000_000;
-                });
+                bp.AddComponent<CompleteDamageImmunity>();
             });
 
             OverpoweredAbilitySelection.AddToSelection(InfiniteSpaceFeature);
